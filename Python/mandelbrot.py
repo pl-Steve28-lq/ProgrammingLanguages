@@ -1,4 +1,3 @@
-from PIL import Image
 import numpy as np
 
 def mandel(c,n):
@@ -15,6 +14,4 @@ def mandelbrotvisual():
             if mandel(complex(j/33,i/33),200): a.append("□")
             else: a.append("■")
         print(''.join(a))
-
-mandelbrotvisual()
 
