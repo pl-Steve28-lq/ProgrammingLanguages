@@ -1,10 +1,10 @@
-#Fibonacci with O(n^2)
+#Fibonacci with O(n^2) Time complexity
 f=lambda n:1if n==1or n==2else f(n-1)+f(n-2)
 
-#Fibonacci with O(n)
+#Fibonacci with O(n) Time complexity
 def F(n):a=[1,1];exec('a.append(a[-1]+a[-2]);'*n);return a[-3]
 
-#Fibonacci with O(n), Extra Smaller
+#Fibonacci with O(n) Time complexity, Extra Smaller
 def F1(n):a,b=0,1;exec('a,b=b,a+b;'*n);return a
 
 #Factorial Function
