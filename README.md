@@ -16,5 +16,5 @@
 - [ ] MATLAB <br>
 - [ ] Ruby <br>
 - [ ] Typescript <br>
-- [ ] Assembly || COBOL || Fortran <br>
+- [ ] Assembly / COBOL / Fortran <br>
 - [X] BrainFuck <br>
