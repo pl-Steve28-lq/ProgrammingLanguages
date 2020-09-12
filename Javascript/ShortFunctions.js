@@ -9,3 +9,9 @@ g=n=>n==0?1:n*f(n-1)
 
 //Length of Collatz Sequence Function
 h=(n,a)=>{if(!a)a=0;return n==1?a:n%2?h(3*n+1,a+1):h(n/2,a+1)}
+
+//Greatest Common Divisor
+G=(a,b)=>b?gcd(b,a%b):a
+
+//Prime Factor Function
+q=n=>Array.from(Array(n+1).keys()).filter(x=>n%x==0)
