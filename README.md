@@ -15,6 +15,6 @@
 - [ ] Lua <br>
 - [ ] MATLAB <br>
 - [ ] Ruby <br>
-- [X] Typescript <br>
+- [X] Typescript **(Complete)**<br>
 - [ ] Assembly / COBOL / Fortran <br>
 - [X] BrainFuck **(Complete)**<br>
