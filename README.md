@@ -8,7 +8,7 @@
 - [X] Javascript **(Complete)** <br>
 - [X] C <br>
 - [X] C++ <br>
-- [X] C# <br>
+- [ ] C# <br>
 - [X] Java <br>
 - [X] Kotlin <br>
 - [ ] Dart <br>
