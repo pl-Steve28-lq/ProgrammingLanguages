@@ -12,7 +12,7 @@
 - [X] Java <br>
 - [X] Kotlin <br>
 - [ ] Dart <br>
-- [ ] Lua <br>
+- [X] Lua <br>
 - [ ] MATLAB <br>
 - [ ] Ruby <br>
 - [X] Typescript **(Complete)**<br>
