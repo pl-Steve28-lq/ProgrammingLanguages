@@ -15,7 +15,7 @@
 > - [X] C++ <br>
 > - [ ] C# <br>
 > - [X] Java <br>
-> - [X] Kotlin <br>
+> - [X] Kotlin **(Start)** <br>
 > - [ ] Dart <br>
 > - [X] Lua **(Start)** <br>
 > - [ ] MATLAB <br>
