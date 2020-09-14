@@ -1,8 +1,8 @@
-# ProgrammingLanguages
+s# ProgrammingLanguages
 제가 배우고 있는 모든 언어들을 정리해놓을수도 있는 레포지토리 입니다. 아마도?
 
 **→ Complete - 자유자재로 내가 원하는 프로그램을 짤 수 있다. <br>
-→ Start - 행렬곱, 역행렬 프로그램을 구현 할 수 있다. <br>
+→ Start - 행렬곱, 역행렬 프로그램 같은 배열, if, for, while 등을 이용한 것들 을 구현 할 수 있다. <br>
 (Esolangs 들은 제외)**
 
 - [ ] 0차 목표 : 전체 채우기 <br>
