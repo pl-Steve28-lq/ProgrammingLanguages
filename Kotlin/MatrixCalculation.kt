@@ -25,7 +25,7 @@ fun <T> T.deepCopy(): T {
 }
 /*  MutableList Deep Copy Function  */
 
-/* Mutable List Visualize, edited from ArrayPrint function*/
+/*  Mutable List Visualize, edited from ArrayPrint function  */
 fun MutableListPrint(arr: MutableList<*>, indent: Int = 0): String {
     var T = "    ".repeat(indent)
     var a = 0
@@ -42,7 +42,7 @@ fun MutableListPrint(arr: MutableList<*>, indent: Int = 0): String {
     if (indent == 0) println(str)
     return str
 }
-/* Mutable List Visualize*/
+/*  Mutable List Visualize  */
 
 fun ArrayProduct(n: MutableList<MutableList<Double>>, m: MutableList<MutableList<Double>>): MutableList<MutableList<Double>> {
     val res: MutableList<MutableList<Double>> = ArrayList()
