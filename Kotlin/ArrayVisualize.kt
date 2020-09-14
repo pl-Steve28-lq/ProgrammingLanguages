@@ -1,4 +1,4 @@
-fun ArrayPrint(arr: Array<*>, indent: Int = 0): Any? {
+fun ArrayPrint(arr: Array<*>, indent: Int = 0): String {
     var T = "    ".repeat(indent)
     var a = 0
     var str = ""
