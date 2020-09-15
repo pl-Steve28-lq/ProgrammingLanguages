@@ -1,5 +1,9 @@
 import kotlin.math.*
 
+fun main() {
+    var arr: MutableList<MutableList<Double>> = mutableListOf(mutableListOf(1.0,2.0), mutableListOf(3.0,4.0))
+    MutableListPrint(Inverse(arr))
+}
 
 /*  MutableList Deep Copy Function from https://stackoverflow.com/questions/45206241/what-is-concise-way-of-deep-copying-a-2d-mutablelist  */
 typealias NativeArray = java.lang.reflect.Array
@@ -48,9 +52,9 @@ fun ArrayProduct(n: MutableList<MutableList<Double>>, m: MutableList<MutableList
     val res: MutableList<MutableList<Double>> = ArrayList()
     for (i in 0..n.size-1) {
         var a: MutableList<Double> = ArrayList()
-        for (j in 0..m.get(0).size-1) {
+        for (j in 0..m[0].size-1) {
             var q = 0.0
-            for (k in 0..n.get(0).size-1) { q += n.get(i).get(k)*m.get(k).get(j) }
+            for (k in 0..n[0].size-1) { q += n[i][k]*m[k][j] }
             a.add(q)
         }
         res.add(a)
@@ -64,7 +68,7 @@ fun Inverse(n: MutableList<MutableList<Double>>): MutableList<MutableList<Double
         val res: MutableList<MutableList<Double>> = ArrayList()
         for (i in 0..o-1) {
             var a: MutableList<Double> = ArrayList()
-            for (j in 0..o-1) { a.add(v.get(j).get(i)) }
+            for (j in 0..o-1) { a.add(v[j][i]) }
             res.add(a)
         }
         
@@ -80,14 +84,13 @@ fun Inverse(n: MutableList<MutableList<Double>>): MutableList<MutableList<Double
     }
     
     fun Abs(v: MutableList<MutableList<Double>>): Double {
-        fun index(v: MutableList<MutableList<Double>>, i:Int, j:Int): Double { return v.get(i).get(j) }
         var w = v.size
-        if (w == 1) { return v.get(0).get(0) }
-        else if (w == 2) { return (index(v,0,0)*index(v,1,1) - index(v,0,1)*index(v,1,0)).toDouble() }
+        if (w == 1) { return v[0][0] }
+        else if (w == 2) { return v[0][0]*v[1][1] - v[1][0]*v[0][1] }
         else {
             var res = 0.0
             for (i in 0..w-1) {
-                res += v.get(0).get(i)*Abs(Cofactor(v,0,i))*((-1.0).pow(i))
+                res += v[0][i]*Abs(Cofactor(v,0,i))*((-1.0).pow(i))
             }
             return res
         }
