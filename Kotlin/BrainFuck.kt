@@ -32,7 +32,7 @@ fun BrainFuck(code:String): Int {
             '[' -> { if (value[pointer] == 0) x = indexFind(x)-1 }
             ']' -> { if (value[pointer] != 0) x = indexFind(x)-1 }
             '.' -> print(value[pointer].toChar())
-            else -> print(0)
+            else -> continue
         }
         x++
     }
