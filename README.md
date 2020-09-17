@@ -14,7 +14,7 @@
 > - [X] Javascript **(Complete)** <br>
 > - [X] C <br>
 > - [X] C++ <br>
-> - [X] C# <br>
+> - [X] C# **(Start)** <br>
 > - [X] Java <br>
 > - [X] Kotlin **(Start)** <br>
 > - [ ] Dart <br>
