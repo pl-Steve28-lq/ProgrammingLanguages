@@ -13,8 +13,14 @@ g=lambda x:x*g(x-1)if x else 1
 #Length of Collatz Sequence Function
 h=lambda n,a=0:a if n==1else h(3*n+1,a+1)if n%2else h(n/2,a+1)
 
-#Greatest common divisor
+#Greatest common divisor with Euclidean Algorithm
 G=lambda a,b:G(b,a%b)if b else a
 
 #Prime Factor Function
 q=lambda n:list(filter(lambda x:not n%x,range(1,n+1)))
+
+#Prime Test Function with Regex
+import re;P=lambda n:not re.match(r"^.$|^(..+)\1+$",","*n)
+
+#Prime Test Function with Division
+p=lambda x,y=2:(p(x,y+1)if x%y else 0)if x-y else 1
