@@ -23,7 +23,8 @@
 > - [ ] Ruby <br>
 > - [ ] Haskell <br>
 > - [X] Typescript **(Start)** <br>
-> - [X] Assembly / **COBOL** / Fortran <br>
+> - [ ] Assembly / Fortran <br>
+> - [X] COBOL <br>
 > - [X] BrainFuck **(Complete)** <br>
 > - [ ] PHP <br>
 > - [X] [VBA](https://github.com/pl-Steve28-lq/VBA-PPT) <br>
