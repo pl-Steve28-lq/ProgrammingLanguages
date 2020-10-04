@@ -1,4 +1,4 @@
-BrainF_actorial | Made By Steve28 / 2020
+BrainF_actorial / Made By Steve28 | 2020
 
 ++++++
 Input Number
