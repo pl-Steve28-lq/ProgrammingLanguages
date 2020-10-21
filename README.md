@@ -20,6 +20,7 @@
 > - [ ] Dart <br>
 > - [X] Lua **(Start)** <br>
 > - [ ] MATLAB <br>
+> - [X] Julia <br>
 > - [ ] Ruby <br>
 > - [ ] Haskell <br>
 > - [X] Typescript **(Start)** <br>
