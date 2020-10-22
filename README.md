@@ -4,6 +4,7 @@
 **→ Complete - 자유자재로 내가 원하는 프로그램을 짤 수 있다. <br>
 → Start - 배열, if, for, while 등을 이용한 것들 을 구현 할 수 있다.<br>
           또는 클래스를 이용하여 인스턴스를 생성하고 적절히 사용 할 수 있다. <br>
+→ Checked - "Hello, World!" 를 출력 할 수 있다. <br>
 (Esolangs 들은 제외)**
 
 - [ ] 0차 목표 : 전체 채우기 <br>
