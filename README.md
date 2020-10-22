@@ -21,6 +21,7 @@
 > - [X] Lua **(Start)** <br>
 > - [ ] MATLAB <br>
 > - [X] Julia <br>
+> - [X] Go <br>
 > - [ ] Ruby <br>
 > - [ ] Haskell <br>
 > - [X] Typescript **(Start)** <br>
