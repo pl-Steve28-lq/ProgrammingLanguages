@@ -17,7 +17,7 @@ Data = lambda _class: Dataclass(*list(map(lambda x: x.strip(), _class.__doc__.sp
 
 def Datafunction(_func):
   annot = _func.__annotations__
-  data = list(map(lambda x: x + " : " + str(annot[x]).split("'")[1].split("'")[0], annot.keys()))
+  data = list(map(lambda x: x + ( " : " + str(annot[x]).split("'")[1].split("'")[0] if annot.get(x, None) else ""), annot.keys()))
   return Dataclass(*data)
 
 # Example
