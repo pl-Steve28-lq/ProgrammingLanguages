@@ -9,14 +9,14 @@ Data = lambda _class: dataclass(*list(map(lambda x: x.strip(), _class.__doc__.sp
 
 
 # Example
+if __name__ == "__main__":
+	Person = Dataclass("name", "age")
+	me = Person("Steve28", 14)
+	print(me.name, me.age) # Steve28, 14
 
-Person = Dataclass("name", "age")
-me = Person("Steve28", 14)
-print(me.name, me.age) # Steve28, 14
 
-
-@Data
-class Person2: "name, age"
-me = Person2("Steve28", 14)
-print(me.name, me.age) # Steve28, 14
+	@Data
+	class Person2: "name, age"
+	me = Person2("Steve28", 14)
+	print(me.name, me.age) # Steve28, 14
   
