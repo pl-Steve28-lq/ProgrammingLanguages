@@ -10,24 +10,25 @@
 - [ ] 1차 목표 : 이 목록의 1/3 Complete 하기 and 절반 Start 하기 <br>
 - [ ] 2차 목표 : 절반 Complete 하기 <br>
 
-> - [X] Python **(Complete)** <br>
-> - [X] Javascript **(Complete)** <br>
+> - [X] **Python (Complete)** <br>
+> - [X] **Javascript (Complete)** <br>
 > - [X] C <br>
 > - [X] C++ <br>
-> - [X] C# **(Start)** <br>
+> - [X] C# _(Start)_ <br>
 > - [X] Java <br>
-> - [X] Kotlin **(Start)** <br>
+> - [X] Kotlin _(Start)_ <br>
+> - [X] Swift _(Start)_ <br>
 > - [ ] Dart <br>
-> - [X] Lua **(Start)** <br>
+> - [X] Lua _(Start)_ <br>
 > - [ ] MATLAB <br>
 > - [X] Julia <br>
 > - [X] Go <br>
 > - [ ] Ruby <br>
 > - [ ] Haskell <br>
-> - [X] Typescript **(Start)** <br>
+> - [X] Typescript _(Start)_ <br>
 > - [ ] Assembly / Fortran <br>
 > - [X] COBOL <br>
-> - [X] BrainFuck **(Complete)** <br>
+> - [X] **BrainFuck (Complete)** <br>
 > - [ ] PHP <br>
 > - [X] [VBA](https://github.com/pl-Steve28-lq/VBA-PPT) <br>
 > - [ ] Aheui (아희) <br>
