@@ -24,7 +24,7 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Juila](/Juila)|✋|
 |[Go](/Go)|✋|
 |[COBOL](/COBOL)|✋|
-|[VBA](/VBA)|✋|
+|[VBA](https://github.com/pl-Steve28-lq/VBA-PPT)|✋|
 |[Dart](/Dart)|✋|
 |Ruby|...|
 |Haskell|...|
