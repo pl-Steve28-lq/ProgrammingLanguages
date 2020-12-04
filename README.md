@@ -17,6 +17,7 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Typescript](/Typescript)|✍️|
 |[Java](/Java)|✍️|
 |[Swift](/Swift)|✍️|
+|[Dart](/Dart)|✋|
 |[Lua](/Lua)|✍️|
 |[C#](/C#)|✍️|
 |[C](/C)|✋|
@@ -25,7 +26,6 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Go](/Go)|✋|
 |[COBOL](/COBOL)|✋|
 |[VBA](https://github.com/pl-Steve28-lq/VBA-PPT)|✋|
-|[Dart](/Dart)|✋|
 |Ruby|...|
 |Haskell|...|
 |Assembly|...|
