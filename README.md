@@ -17,7 +17,7 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Typescript](/Typescript)|✍️|
 |[Java](/Java)|✍️|
 |[Swift](/Swift)|✍️|
-|[Dart](/Dart)|✋|
+|[Dart](/Dart)|✍️|
 |[Lua](/Lua)|✍️|
 |[C#](/C#)|✍️|
 |[C](/C)|✋|
