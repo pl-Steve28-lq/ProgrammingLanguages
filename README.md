@@ -15,7 +15,6 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Javascript](/Javascript)|✅💻|
 |[Kotlin](/Kotlin)|✍️💻|
 |[Typescript](/Typescript)|✍️|
-|[Java](/Java)|✍️|
 |[Swift](/Swift)|✍️|
 |[Dart](/Dart)|✍️|
 |[Lua](/Lua)|✍️|
