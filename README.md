@@ -18,6 +18,7 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Dart](/Dart)|✍️|
 |[Lua](/Lua)|✍️|
 |[C#](/C#)|✍️|
+|[Ruby](/Ruby)|✍️|
 |[C](/C)|✋|
 |[C++](/C++)|✋|
 |[Juila](/Juila)|✋|
