@@ -12,22 +12,20 @@ This repository contains all of languages that I'm learning. Maybe?
 |:------:|---|
 |[Python](/Python)|✅💻|
 |[Javascript](/Javascript)|✅💻|
-|[Kotlin](/Kotlin)|✍️💻|
+|[Kotlin](/Kotlin)|✅💻|
 |[Typescript](/Typescript)|✍️|
 |[Swift](/Swift)|✍️|
 |[Dart](/Dart)|✍️|
 |[Lua](/Lua)|✍️|
 |[C#](/C#)|✍️|
 |[Ruby](/Ruby)|✍️|
+|[Haskell](/Haskell)|✍️|
 |[C](/C)|✋|
 |[C++](/C++)|✋|
 |[Juila](/Juila)|✋|
 |[Go](/Go)|✋|
 |[COBOL](/COBOL)|✋|
 |[VBA](https://github.com/pl-Steve28-lq/VBA-PPT)|✋|
-|Ruby|...|
-|Haskell|...|
-|Assembly|...|
 |MATLAB|...|
 |PHP|...|
 
@@ -35,4 +33,5 @@ This repository contains all of languages that I'm learning. Maybe?
 |:------:|---|
 |[BrainF\*\*k](/BrainFuck)|✅|
 |[PowerShell](/PowerShell)|✍️|
+|Assembly|...|
 |Aheui|...|
