@@ -1,0 +1,18 @@
+-- Executor : https://crypto.stanford.edu/~blynn/lambda/sk.html
+
+-- Church-encoded : n = (f, x) -> f^n(x)
+-- Result : n(succ 0)
+
+-- Successor : f(n f x) = f(n(f x)) = f(n) = n+1 
+succ = \n f x -> f(n f x)
+
+0 = \f x -> x
+1 = succ 0
+2 = succ 1
+
+-- Multiplication : f -> m(n f) = f -> m(((f, x) -> f^n(x))(f))
+-- = f -> m(x -> f^n(x)) = f -> (((f, x) -> f^m(x))(x -> f^n(x)))
+-- = f -> (x -> (f^n)^m(x)) = (f, x) -> f^(m*n)(x)
+mul = \m n f -> m(n f)
+
+main = mul 2 (succ 2)
