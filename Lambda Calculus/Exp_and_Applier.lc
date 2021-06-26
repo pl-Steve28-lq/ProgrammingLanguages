@@ -1,0 +1,18 @@
+-- Executor : https://crypto.stanford.edu/~blynn/lambda/sk.html
+
+succ = \n f x -> f(n f x)
+0 = \f x -> x
+1 = succ 0
+2 = succ 1
+3 = succ 2
+
+-- Exponential : n m f x = ((f, x) -> f^n(x))(((f, x) -> f^m(x))(f)) x
+-- = ((f, x) -> f^n(x))(x -> f^m(x)) x = (x -> (x -> f^m(x))^n(x))(x)
+-- = (x -> f^(m^n)(x))(x) = f^(m^n)(x) = m^n f x
+-- Therefore, n m = m^n
+exp = \m n -> n m
+
+-- Applier : w g = ((f, x) -> f^w(x))(g) = x -> g^w(x)
+apply = \g w -> w g
+
+main = exp 2 3
