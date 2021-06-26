@@ -1,0 +1,39 @@
+true = \x y -> x
+false = \x y -> y
+id = \x -> x
+
+succ = \n f x -> f(n f x)
+
+-- Predecessor : (n, f, x) -> n (\g h -> h (g f)) (\u -> x) id
+-- = (n, f, x) -> ((f, x) -> f^n(x))(\g h -> h (g f)) (\u -> x) id
+-- = (n, f, x) -> (x -> (\g h -> h(g(f)))^n(x)) (\u -> x) id
+-- = (n, f, x) -> (\g h -> h(g(f)))^n(\u -> x) id
+-- = (n, f, x) -> (\g -> h -> h(g(f)))^n(\u -> x) id
+
+-- (Suppose H_[x] = \h -> h x, then F = \g -> H_[g(f)]
+-- Then F^n(\u -> x) = F^(n-1) F (\u -> x) = F^(n-1) H_[x] = F^(n-2) F H_[x]
+-- = F^(n-2) H_[H_[x](f)]] = F^(n-2) H_[f x] = F^(n-3) F H_[f x]
+-- = F^(n-3) H_[H_[f x](f)] = F^(n-3) H_[f f x] = F^(n-3) H_[f^2(x)]
+-- = ... = F H_[f^(n-2)(x)] = H_[f^(n-1)(x)])
+
+-- = (n, f, x) -> H_[f^(n-1)(x)] id = (n, f, x) -> (\h -> h f^(n-1)(x)) id
+-- = (n, f, x) -> f^(n-1)(x) = n-1
+pred = \n f x -> n (\g h -> h (g f)) (\u -> x) id
+
+0 = \f x -> x
+1 = succ 0
+
+-- M times N
+mul = \m n f -> m(n f)
+
+-- isZero : n -> n (x -> false) true = n -> ((f, x) -> f^n(x)) (x -> false) true
+-- = n -> (x -> (x -> false)^n(x)) true
+-- = n -> [(x -> false) if n != 0, else (x -> x)] true
+-- = [false if n != 0, else true]
+isZero = \n -> n (\x -> false) true
+
+-- Y Combinator (https://www.ics.uci.edu/~lopes/teaching/inf212W12/readings/lambda-calculus-handout.pdf)
+Y = \f -> (\x -> f(x x))(\x -> f(x x))
+fact = Y(\f n -> (isZero n) 1 (mul n (f (pred n))))
+
+main = fact (succ (succ (succ 1)))
