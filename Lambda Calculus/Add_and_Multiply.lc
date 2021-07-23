@@ -1,7 +1,7 @@
 -- Executor : https://crypto.stanford.edu/~blynn/lambda/sk.html
 
 -- Church-encoded : n = (f, x) -> f^n(x)
--- Result : n(succ 0)
+-- Result : n succ 0
 
 -- Successor : f(n f x) = f(n(f x)) = f(n) = n+1 
 succ = \n f x -> f(n f x)
