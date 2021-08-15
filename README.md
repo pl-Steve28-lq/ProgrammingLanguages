@@ -17,8 +17,8 @@ This repository contains all of languages that I'm learning. Maybe?
 |[C](/C)|✋|                               [C++](/C++)|✋|
 |[Ruby](/Ruby)|✋|                         [Juila](/Juila)|✋|
 [Dart](/Dart)|✋|                          [COBOL](/COBOL)|✋|
-|[Go](/Go)|✋|                             MATLAB|...|
-|PHP|...|
+|[Go](/Go)|✋|                             Elixir|✋|
+|PHP|...|                                  MATLAB|...|
 
 |Others|Status|
 |:------:|---|
