@@ -10,15 +10,16 @@ This repository contains all of languages that I'm learning. Maybe?
 
 |Language|Status|                          Language|Status|
 |:------:|---                |             :------:|---|
-|[Python](/Python)|✅💻|                  [Javascript](/Javascript)|✅💻|   [Lua](/Lua)|✋
+|[Python](/Python)|✅💻|                  [Javascript](/Javascript)|✅💻|
 |[Kotlin](/Kotlin)|✅💻|                  [Rust](/Rust)|✍️|
-|[Typescript](/Typescript)|✍️|            [Haskell](/Haskell)|✍️|                                                   
-|[C#](/C#)|✍️|                            [Swift](/Swift)|✍️|                                
-|[C](/C)|✋|                               [C++](/C++)|✋|
-|[Ruby](/Ruby)|✋|                         [Juila](/Juila)|✋|
-[Dart](/Dart)|✋|                          [COBOL](/COBOL)|✋|
-|[Go](/Go)|✋|                             Elixir|✋|
-|PHP|...|                                  MATLAB|...|
+|[Typescript](/Typescript)|✍️|             [Haskell](/Haskell)|✍️|                                                   
+|[C#](/C#)|✍️|                             [Swift](/Swift)|✍️|                                
+|[Elixir](/Elixir)|✋|                     [Ruby](/Ruby)|✋|
+|[Go](/Go)|✋|                             [Juila](/Juila)|✋|
+|[Dart](/Dart)|✋|                         [Lua](/Lua)|✋|
+|[C++](/C++)|✋|                           [C](/C)|✋|
+[COBOL](/COBOL)|✋|                        MATLAB|...|
+|PHP|...|
 
 |Others|Status|
 |:------:|---|
