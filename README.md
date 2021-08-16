@@ -15,7 +15,7 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Typescript](/Typescript)|✍️|             [Haskell](/Haskell)|✍️|                                                   
 |[C#](/C#)|✍️|                             [Swift](/Swift)|✍️|                                
 |[Elixir](/Elixir)|✋|                     [Ruby](/Ruby)|✋|
-|[Go](/Go)|✋|                             [Juila](/Juila)|✋|
+|[Go](/Go)|✋|                             [Juila](/Julia)|✋|
 |[Dart](/Dart)|✋|                         [Lua](/Lua)|✋|
 |[C++](/C++)|✋|                           [C](/C)|✋|
 [COBOL](/COBOL)|✋|                        MATLAB|...|
