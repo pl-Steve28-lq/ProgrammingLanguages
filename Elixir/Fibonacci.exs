@@ -15,12 +15,9 @@ defmodule Main do
   end
 
   def mul(x, y) do
-    case {x, y} do
-      {{a, b, c, d}, {e, f, g, h}} -> {
-        a*e+b*g, a*f+b*h, c*e+d*g, c*f+d*h
-      }
-      _ -> 0
-    end
+    {a, b, c, d} = x
+    {e, f, g, h} = y
+    {a*e+b*g, a*f+b*h, c*e+d*g, c*f+d*h}
   end
 
   def print(x) do IO.puts x end
