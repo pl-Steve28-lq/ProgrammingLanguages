@@ -13,8 +13,8 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Python](/Python)|✅💻|                  [Javascript](/Javascript)|✅💻|
 |[Kotlin](/Kotlin)|✅💻|                  [Rust](/Rust)|✍️|
 |[Typescript](/Typescript)|✍️|             [Haskell](/Haskell)|✍️|                                                   
-|[C#](/C#)|✍️|                             [Swift](/Swift)|✍️|                                
-|[Elixir](/Elixir)|✋|                     [Ruby](/Ruby)|✋|
+|[Elixir](/Elixir)|✍️|                     [Swift](/Swift)|✍️|                                
+|[C#](/C#)|✍️|                             [Ruby](/Ruby)|✋|
 |[Go](/Go)|✋|                             [Juila](/Julia)|✋|
 |[Dart](/Dart)|✋|                         [Lua](/Lua)|✋|
 |[C++](/C++)|✋|                           [C](/C)|✋|
