@@ -12,10 +12,10 @@ This repository contains all of languages that I'm learning. Maybe?
 |Language|Status|                          Language|Status|
 |:------:|---                |             :------:|---|
 |[Python](/Python)|✅💻|                  [Javascript](/Javascript)|✅💻|
-|[Kotlin](/Kotlin)|✅💻|                  [Rust](/Rust)|✍️|
+|[Kotlin](/Kotlin)|✅💻|                  [LLVM IR](/LLVM%20IR)|✋💻|
 |[Elixir](/Elixir)|✍️|                     [Swift](/Swift)|✍️| 
 |[Typescript](/Typescript)|✍️|             [Haskell](/Haskell)|✍️|     
-|[C#](/C#)|✍️|                             [LLVM IR](/LLVM%20IR)|✅✋|
+|[C#](/C#)|✍️|                             [Rust](/Rust)|✍️|
 |[Ruby](/Ruby)|✋|                         [COBOL](/COBOL)|✋|
 |[Go](/Go)|✋|                             [Juila](/Julia)|✋|
 |[Dart](/Dart)|✋|                         [Lua](/Lua)|✋|
