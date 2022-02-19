@@ -15,16 +15,17 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Kotlin](/Kotlin)|✅💻|                  [Rust](/Rust)|✍️|
 |[Elixir](/Elixir)|✍️|                     [Swift](/Swift)|✍️| 
 |[Typescript](/Typescript)|✍️|             [Haskell](/Haskell)|✍️|     
-|[C#](/C#)|✍️|                             [Ruby](/Ruby)|✋|
+|[C#](/C#)|✍️|                             [LLVM IR](/LLVM%20IR)|✅✋|
+|[Ruby](/Ruby)|✋|                         [COBOL](/COBOL)|✋|
 |[Go](/Go)|✋|                             [Juila](/Julia)|✋|
 |[Dart](/Dart)|✋|                         [Lua](/Lua)|✋|
 |[C++](/C++)|✋|                           [C](/C)|✋|
-[COBOL](/COBOL)|✋|                        MATLAB|...|
-|PHP|...|
+|MATLAB|...|                                PHP|...|
 
 |Others|Status|
 |:------:|---|
 |[BrainF\*\*k](/BrainFuck)|✅|
+|[Lambda Calculus](/Lambda%20Calculus)|✅|
 |[PowerShell](/PowerShell)|✍️|
 |[VBA](https://github.com/pl-Steve28-lq/VBA-PPT)|✋|
 |Assembly|...|
