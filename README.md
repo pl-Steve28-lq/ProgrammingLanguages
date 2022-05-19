@@ -14,12 +14,12 @@ This repository contains all of languages that I'm learning. Maybe?
 |[Python](/Python)|✅💻|                  [Javascript](/Javascript)|✅💻|
 |[Kotlin](/Kotlin)|✅💻|                  [LLVM IR](/LLVM%20IR)|✋💻|
 |[Elixir](/Elixir)|✍️|                     [Swift](/Swift)|✍️| 
-|[Typescript](/Typescript)|✍️|             [Haskell](/Haskell)|✍️|     
+|[Typescript](/Typescript)|✍️|             [Haskell](/Haskell)|✍️| 
+|[C++](/C++)|✍️|                           [C](/C)|✍️|
 |[C#](/C#)|✍️|                             [Rust](/Rust)|✍️|
 |[Ruby](/Ruby)|✋|                         [COBOL](/COBOL)|✋|
 |[Go](/Go)|✋|                             [Juila](/Julia)|✋|
 |[Dart](/Dart)|✋|                         [Lua](/Lua)|✋|
-|[C++](/C++)|✋|                           [C](/C)|✋|
 |MATLAB|...|                                PHP|...|
 
 |Others|Status|
