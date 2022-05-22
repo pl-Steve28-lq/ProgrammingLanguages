@@ -2,40 +2,40 @@ import Data.Char
 import Data.Map (Map)
 import qualified Data.Map as Map
 
-brainFuck :: String -> Int -> String
-brainFuck code size = map chr (snd (brainFuckData code size))
+bF :: String -> Int -> String
+bF code size = map chr (snd (bFData code size))
 
-brainFuckData :: String -> Int -> ([Int], [Int])
-brainFuckData "" size = ((replicate size 0), [])
-brainFuckData x size = brainFuckImpl x (fst (brainFuckData "" size)) 0 (length x) []
+bFData :: String -> Int -> ([Int], [Int])
+bFData "" size = ((replicate size 0), [])
+bFData x size = bFImpl x (fst (bFData "" size)) 0 (length x) []
 
-brainFuckImpl :: String -> [Int] -> Int -> Int -> [Int] -> ([Int], [Int])
-brainFuckImpl _ states _ 0 outputs = (states, outputs)
-brainFuckImpl cmds states ptr idx outputs =
+bFImpl :: String -> [Int] -> Int -> Int -> [Int] -> ([Int], [Int])
+bFImpl _ states _ 0 outputs = (states, outputs)
+bFImpl cmds states ptr idx outputs =
   let len = length cmds
       ridx = len - idx
       cmd = cmds!!ridx
-  in  brainFuckImpl cmds
-      (brainFuckChange cmd states ptr)
-      (brainFuckMove cmd ptr)
-      (len - brainFuckPos cmds cmd (states!!ptr) ridx)
-      (brainFuckOutput cmd (states!!ptr) outputs)
+  in  bFImpl cmds
+      (bFChange cmd states ptr)
+      (bFMove cmd ptr)
+      (len - bFPos cmds cmd (states!!ptr) ridx)
+      (bFOutput cmd (states!!ptr) outputs)
 
-brainFuckChange :: Char -> [Int] -> Int -> [Int]
-brainFuckChange cmd states ptr
+bFChange :: Char -> [Int] -> Int -> [Int]
+bFChange cmd states ptr
   | cmd == '+' = setIndex states ptr (item + 1)
   | cmd == '-' = setIndex states ptr (item - 1)
   | otherwise = states
   where item = states!!ptr
 
-brainFuckMove :: Char -> Int -> Int
-brainFuckMove cmd ptr
+bFMove :: Char -> Int -> Int
+bFMove cmd ptr
   | cmd == '>' = ptr + 1
   | cmd == '<' = ptr - 1
   | otherwise = ptr
 
-brainFuckPos :: String -> Char -> Int -> Int -> Int
-brainFuckPos cmds cmd state idx
+bFPos :: String -> Char -> Int -> Int -> Int
+bFPos cmds cmd state idx
   | cmd == '[' && Map.member idx loop && state == 0
       = loop Map.! idx
   | cmd == ']' && Map.member idx loop && state /= 0
@@ -43,8 +43,8 @@ brainFuckPos cmds cmd state idx
   | otherwise = idx + 1
   where loop = findLoop cmds
 
-brainFuckOutput :: Char -> Int -> [Int] -> [Int]
-brainFuckOutput cmd state outputs
+bFOutput :: Char -> Int -> [Int] -> [Int]
+bFOutput cmd state outputs
   | cmd == '.' = outputs ++ [state]
   | otherwise = outputs
 
@@ -73,4 +73,4 @@ setIndex xs idx val = take idx xs ++ [val] ++ drop (idx + 1) xs
 
 main = do
   let code = "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++++++++++++++.------------.<<+++++++++++++++.>.+++.------.--------.>+."
-  print (brainFuck code 16)
+  print (bF code 16)
